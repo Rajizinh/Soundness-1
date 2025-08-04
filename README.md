@@ -27,3 +27,12 @@ soundnessup install
 soundness-cli generate-key --name my-key
 ```
 
+for old key import
+
+```bash
+soundness-cli import-key --name my-key --mnemonic "import your key here "
+```
+for check public add
+```bash
+oundness-cli list-keys
+```
